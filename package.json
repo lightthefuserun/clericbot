@@ -1,0 +1,18 @@
+{
+  "name": "clericbot",
+  "version": "0.1.0",
+  "description": "Cleric bot keeps track your daily dev meetings",
+  "main": "index.js",
+  "scripts": {
+    "test": "yarn test",
+    "start": "node index.js"
+  },
+  "repository": "https://github.com/lightthefuserun/clericbot.git",
+  "author": "Rui Freitas",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "mongoose": "^5.7.7",
+    "slackbots": "^1.2.0"
+  }
+}
